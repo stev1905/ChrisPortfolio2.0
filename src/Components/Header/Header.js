@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Typewriter from 'typewriter-effect';
 import {Navbar, Nav} from 'react-bootstrap';
+import RenderSmoothImage from 'render-smooth-image-react';
+import 'render-smooth-image-react/build/style.css';
 import './Header.css';
 
 export default class Header extends Component {
@@ -11,7 +13,8 @@ export default class Header extends Component {
       aboutIsActive: '',
       skillsIsActive: '',
       portfolioIsActive: '',
-      barIsVisible:''
+      barIsVisible:'',
+      hiddenBannerContent:'row banner'
     }
     console.log('Constructor')
   }
@@ -60,11 +63,22 @@ export default class Header extends Component {
       console.log('Location - ', fromTop, 'Skills- ', skills)
     }
 
+    unHideBanner = () => {
+      console.log('unhiding')
+      this.setState({hiddenBannerContent:'row banner unhide'})
+    }
+
   render() {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>   
       <header id="home" class="header-container">
+        <RenderSmoothImage
+          src={'https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/test2.jpg?alt=media&token=fe7e4c48-8b35-46ac-8c5b-8d47c00fe9bf'} 
+          alt="alternate-text" 
+          object-fit="cover"
+          onLoad = {() => this.unHideBanner()}
+        />
          <Navbar collapseOnSelect expand="lg" class={this.state.barIsVisible}>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -76,7 +90,8 @@ export default class Header extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-          <div className="row banner">
+        {console.log('hiding banner')}
+          <div className={this.state.hiddenBannerContent}>
               <div className="banner-text">
                 <h1 className="responsive-headline">Hi, I'm Christian.</h1>
                     <h2 style={{color:'#fff', fontFamily:'sans-serif '}}> 

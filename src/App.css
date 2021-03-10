@@ -33,3 +33,15 @@ html {
    -webkit-font-smoothing: antialiased;
 }
 
+/** styles.css */
+
+.smooth-image {
+   transition: opacity 1s;
+ }
+ .image-visible {
+   opacity: 1;
+ }
+ .image-hidden {
+   opacity: 0;
+ }
+

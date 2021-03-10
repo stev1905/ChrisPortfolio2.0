@@ -4,13 +4,10 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './About.css'
 
 export default class About extends Component {
- onMouseAction = () => {
-    console.log('this is working')
- }
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="about" onScroll={this.onMouseAction}>
+      <section id="about">
         <div class="about-container">
             <div class="aboutContent-container">
                 <div class="leftAbout">

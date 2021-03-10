@@ -5,8 +5,6 @@ header {
     position: relative;
     width: 100%;
     min-height: 500px;
-    background: #161415 url('https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/test2.jpg?alt=media&token=fe7e4c48-8b35-46ac-8c5b-8d47c00fe9bf') no-repeat top center;
-    background-size: cover !important;
      -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
@@ -21,7 +19,7 @@ header {
  
  /* vertically center banner section */
  header .banner {
-    display: inline-block;
+    display: none;
     vertical-align: middle;
     margin: 0 auto;
     width: 50%;
@@ -38,6 +36,9 @@ header {
     filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
     -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
     zoom: 1;
+ }
+ header .banner.unhide {
+   display: block;
  }
  
  header .banner-text { width: 100%; border-radius: 10px; padding-bottom: 10px; }
@@ -114,6 +115,11 @@ header {
    transition: .4s;
    z-index: 99999;
 }
+
+.banner.unhide {
+   display: block;
+ }
+
 .scroll {    
   left: 0;
   margin: auto;
@@ -144,6 +150,14 @@ div.m-auto.navbar-nav {
    color: #fff
  }
  
+ .smooth-image-wrapper {
+    position: absolute;
+    object-fit: cover;
+ }
+
+ .smooth-image.img-visible {
+    object-fit: cover !important;
+ }
 
  header .scrolldown a:hover { color: #11ABB0; }
 
