@@ -13,8 +13,9 @@ export default class Header extends Component {
       aboutIsActive: '',
       skillsIsActive: '',
       portfolioIsActive: '',
-      barIsVisible:'',
-      hiddenBannerContent:'row banner'
+      barIsVisible:'navbar navbar-expand-lg navbar-dark bg-dark',
+      hiddenBannerContent:'',
+      hiddenNavContent:''
     }
     console.log('Constructor')
   }
@@ -63,9 +64,10 @@ export default class Header extends Component {
       console.log('Location - ', fromTop, 'Skills- ', skills)
     }
 
-    unHideBanner = () => {
+    unHideHeadingContent = () => {
       console.log('unhiding')
-      this.setState({hiddenBannerContent:'row banner unhide'})
+      this.setState({hiddenBannerContent:'unhide'})
+      this.setState({hiddenNavContent:'unhide'})
     }
 
   render() {
@@ -77,9 +79,9 @@ export default class Header extends Component {
           src={'https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/test2.jpg?alt=media&token=fe7e4c48-8b35-46ac-8c5b-8d47c00fe9bf'} 
           alt="alternate-text" 
           object-fit="cover"
-          onLoad = {() => this.unHideBanner()}
+          onLoad = {() => this.unHideHeadingContent()}
         />
-         <Navbar collapseOnSelect expand="lg" class={this.state.barIsVisible}>
+         <Navbar collapseOnSelect expand="lg" class={`${this.state.barIsVisible} ${this.state.hiddenNavContent}`}>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto">
@@ -91,7 +93,7 @@ export default class Header extends Component {
           </Navbar.Collapse>
         </Navbar>
         {console.log('hiding banner')}
-          <div className={this.state.hiddenBannerContent}>
+          <div className={`row banner ${this.state.hiddenBannerContent}`}>
               <div className="banner-text">
                 <h1 className="responsive-headline">Hi, I'm Christian.</h1>
                     <h2 style={{color:'#fff', fontFamily:'sans-serif '}}> 

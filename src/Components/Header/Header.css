@@ -105,6 +105,7 @@ header {
  header .scrolldown a:hover { color: #11ABB0; }
 
  .navbar {
+   display: none;
    position: fixed;
    height: 52px;
    top: 0;
@@ -119,6 +120,11 @@ header {
 .banner.unhide {
    display: block;
  }
+
+ .navbar.unhide {
+   display: block;
+ }
+
 
 .scroll {    
   left: 0;
