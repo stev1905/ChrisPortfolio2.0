@@ -76,7 +76,7 @@ export default class Header extends Component {
       <React.Fragment>   
       <header id="home" class="header-container">
         <RenderSmoothImage
-          src={'https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/test2.jpg?alt=media&token=fe7e4c48-8b35-46ac-8c5b-8d47c00fe9bf'} 
+          src={'https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/test4.jpg?alt=media&token=6f85466f-8d92-42c5-9531-57669e873a95'} 
           alt="alternate-text" 
           object-fit="cover"
           onLoad = {() => this.unHideHeadingContent()}
