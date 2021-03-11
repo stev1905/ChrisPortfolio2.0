@@ -111,7 +111,7 @@ let resumeData = {
         "name":"Covid-19 Tracker",
         "description":"React.js Frontend (React Hooks), Utilizes Disease.sh API to retreive data",
         "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/project13.png?alt=media&token=d0d6d503-08ce-4aa5-adda-1f44c2d1d8e6",
-        "projectUrl":"https://admiring-gates-0d9dbc.netlify.app/"
+        "projectUrl":"https://c19tracker.chris-thedeveloper.com/"
       }
     ]
   }
