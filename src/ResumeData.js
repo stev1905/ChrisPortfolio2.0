@@ -17,8 +17,8 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-    "aboutmeTwo":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+    "aboutme":"I'm a self-taught Full-stack Developer with 8+ years of experience in the field of IT. Throughout my career, I've had the opportunity to acquire on-the-job experience with web development. Over that time, I've developed a passion and appreciation for growing my skills independently. I specialize with JavaScript tech stack, specifically PERN (Postgres, Express.js, React.js, Node.js) or FERN stack (Firebase, Express.js, React.js, Node.js). I'm seeking to join a positive and energetic team where I can contribute and continue to grow as a Full-stack Developer.",
+    "aboutmeTwo":"On a personal level, I love spending time with family & friends. I'm a huge sports fan. Go Eagles! Feel free and reach out to discuss any of my previous work or to discuss any potential new projects or web development roles. My contact information is listed on my resume below.",
     "address":"Brooklyn, NY",
     "email":"christian.stevens11@outlook.com",
     "education":[
