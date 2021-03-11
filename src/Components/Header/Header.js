@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect';
 import {Navbar, Nav} from 'react-bootstrap';
 import RenderSmoothImage from 'render-smooth-image-react';
 import 'render-smooth-image-react/build/style.css';
+
 import './Header.css';
 
 export default class Header extends Component {
@@ -13,7 +14,7 @@ export default class Header extends Component {
       aboutIsActive: '',
       skillsIsActive: '',
       portfolioIsActive: '',
-      barIsVisible:'navbar navbar-expand-lg navbar-dark bg-dark',
+      barIsVisible:'navbar navbar-expand-lg navbar-light',
       hiddenBannerContent:'',
       hiddenNavContent:''
     }
@@ -29,9 +30,9 @@ export default class Header extends Component {
     handleScroll = (e) => {
       if (window.scrollY > 20 && (window.innerWidth > 500)) {
         console.log('true')
-        this.setState({barIsVisible: 'navbar navbar-expand-lg navbar-dark bg-dark scroll'}); 
+        this.setState({barIsVisible: 'navbar navbar-expand-lg navbar-light scroll'}); 
       } else {
-        this.setState({barIsVisible: 'navbar navbar-expand-lg navbar-dark bg-dark'});
+        this.setState({barIsVisible: 'navbar navbar-expand-lg navbar-light'});
         console.log('false')
       }
     }
@@ -56,7 +57,7 @@ export default class Header extends Component {
       } else {
         this.setState({skillsIsActive: ''})
       }
-      if (fromTop > portfolio) {
+      if (fromTop >= portfolio) {
           this.setState({portfolioIsActive: 'activeLink'})
       } else {
          this.setState({portfolioIsActive: ''})
