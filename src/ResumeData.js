@@ -117,7 +117,7 @@ let resumeData = {
         "name":"RUGSUSA",
         "description":"React.js Frontend, JAVA/Groovy/OFbiz Backend",
         "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/Screenshot%202024-02-01%20at%2010.58.05%E2%80%AFPM.png?alt=media&token=6ba75f2e-4b41-4571-b6dd-1cb563a5a8d8",
-        "projectUrl":"www.rugsusa.com"
+        "projectUrl":"https://www.rugsusa.com"
       }
     ]
   }
