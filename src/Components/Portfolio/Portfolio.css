@@ -138,6 +138,7 @@
  .portfolio-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
  }
 
  .project-container {
@@ -147,6 +148,10 @@
  }
  .columns.portfolio-item {
     display: flex;
+ }
+
+ #portfolio .portfolio-header {
+    margin-bottom: 40px;
  }
 
  @media (max-width: 900px) {

@@ -17,9 +17,9 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I'm a self-taught Full-stack Developer with 8+ years of experience in the field of IT. Throughout my career, I've had the opportunity to acquire on-the-job experience with web development. Over that time, I've developed a passion and appreciation for growing my skills independently. I specialize with JavaScript tech stack, specifically PERN (Postgres, Express.js, React.js, Node.js) or FERN stack (Firebase, Express.js, React.js, Node.js). I'm seeking to join a positive and energetic team where I can contribute and continue to grow as a Full-stack Developer.",
-    "aboutmeTwo":"On a personal level, I love spending time with family & friends. I'm a huge sports fan. Go Eagles! Feel free and reach out to discuss any of my previous work or to discuss any potential new projects or web development roles. My contact information is listed on my resume below.",
-    "address":"Brooklyn, NY",
+    "aboutme":"Results-driven IT professional with a decade-long career, specializing in Front-End Development for the past 3 years. Proven expertise in crafting seamless and user-centric web interfaces using JavaScript and front-end frameworks. Adept at translating complex business requirements into intuitive and visually appealing applications. Demonstrated ability to integrate front-end solutions with back-end systems, leveraging a comprehensive understanding of the broader IT landscape. Committed to delivering high-quality software and contributing to collaborative teams. Eager to apply a wealth of IT experience to drive innovation and excellence in front-end.",
+    "aboutmeTwo":"On a personal level, I love spending time with my wife and two beautiful sons Wesley & Hendrix. I'm also a huge sports fan, go Eagles! Feel free and reach out to discuss any of my previous work or to discuss any potential new projects or web development roles. My contact information is listed on my resume below.",
+    "address":"Yonkers, NY",
     "email":"christian.stevens11@outlook.com",
     "education":[
       {
@@ -111,7 +111,13 @@ let resumeData = {
         "name":"Covid-19 Tracker",
         "description":"React.js Frontend (React Hooks), Utilizes Disease.sh API to retreive data",
         "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/project13.png?alt=media&token=d0d6d503-08ce-4aa5-adda-1f44c2d1d8e6",
-        "projectUrl":"https://c19tracker.chris-thedeveloper.com/"
+        "projectUrl":"https://admiring-gates-0d9dbc.netlify.app//"
+      },
+      {
+        "name":"RUGSUSA",
+        "description":"React.js Frontend, JAVA/Groovy/OFbiz Backend",
+        "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/Screenshot%202024-02-01%20at%2010.58.05%E2%80%AFPM.png?alt=media&token=6ba75f2e-4b41-4571-b6dd-1cb563a5a8d8",
+        "projectUrl":"www.rugsusa.com"
       }
     ]
   }

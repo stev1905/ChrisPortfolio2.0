@@ -8,10 +8,13 @@ export default class Porfolio extends Component {
     let resumeData = this.props.resumeData;
     return (
     <section id="portfolio">
-        <h1><span>Check Out Some of My Works.</span></h1>
+        <h1 className="portfolio-header"><span>Check Out Some of My Personal Projects</span></h1>
         <div className="portfolio-container">
             <div id="portfolio-wrapper" className="project-container">
-                {resumeData.portfolio && resumeData.portfolio.map((item) => {
+                {resumeData.portfolio && resumeData.portfolio.map((item, i) => {
+
+                if(i >=3 ) return null;
+                
                 return(
                     <div className="columns portfolio-item">
                         <a href={item.projectUrl}>
@@ -29,6 +32,22 @@ export default class Porfolio extends Component {
                 )})}
             </div>
         </div>
+        <h1 className="portfolio-header"><span>Check Out some Contributions I Make in my current role</span></h1>
+        <div className="portfolio-container">
+            <div className="columns portfolio-item">
+                <a href={resumeData.portfolio[3].projectUrl}>
+                    <div className="item-wrap">
+                        <LazyLoadImage src={`${resumeData.portfolio[3].imgurl}`} className="item-img" alt="projectImage"/>
+                        <div className="overlay">
+                            <div className="portfolio-item-meta">
+                                <h5>{resumeData.portfolio[3].name}</h5>
+                                <p>{resumeData.portfolio[3].description}</p>
+                            </div>
+                        </div>      
+                    </div>
+                </a>
+            </div>
+        </div>  
     </section>
     );
   }
