@@ -102,12 +102,6 @@ let resumeData = {
         "projectUrl":"https://crwn-live0511.herokuapp.com/"
       },
       {
-        "name":"Face Recognition App",
-        "description":"React.js Frontend, Postgres DB, Express.js Backend",
-        "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/project12.JPG?alt=media&token=66e6ddad-7067-4ca0-9c09-abf2bc44a237",
-        "projectUrl":"https://smart-brain0620.herokuapp.com/"
-      },
-      {
         "name":"Covid-19 Tracker",
         "description":"React.js Frontend (React Hooks), Utilizes Disease.sh API to retreive data",
         "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/project13.png?alt=media&token=d0d6d503-08ce-4aa5-adda-1f44c2d1d8e6",

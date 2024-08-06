@@ -13,7 +13,7 @@ export default class Porfolio extends Component {
             <div id="portfolio-wrapper" className="project-container">
                 {resumeData.portfolio && resumeData.portfolio.map((item, i) => {
 
-                if(i >=3 ) return null;
+                if(i >=2 ) return null;
                 
                 return(
                     <div className="columns portfolio-item">
@@ -35,13 +35,13 @@ export default class Porfolio extends Component {
         <h1 className="portfolio-header"><span>Check Out some Contributions I Make in my current role</span></h1>
         <div className="portfolio-container">
             <div className="columns portfolio-item">
-                <a href={resumeData.portfolio[3].projectUrl}>
+                <a href={resumeData.portfolio[2].projectUrl}>
                     <div className="item-wrap">
-                        <LazyLoadImage src={`${resumeData.portfolio[3].imgurl}`} className="item-img" alt="projectImage"/>
+                        <LazyLoadImage src={`${resumeData.portfolio[2].imgurl}`} className="item-img" alt="projectImage"/>
                         <div className="overlay">
                             <div className="portfolio-item-meta">
-                                <h5>{resumeData.portfolio[3].name}</h5>
-                                <p>{resumeData.portfolio[3].description}</p>
+                                <h5>{resumeData.portfolio[2].name}</h5>
+                                <p>{resumeData.portfolio[2].description}</p>
                             </div>
                         </div>      
                     </div>
