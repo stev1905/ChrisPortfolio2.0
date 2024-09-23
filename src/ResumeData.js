@@ -97,15 +97,15 @@ let resumeData = {
     "portfolio":[
       {
         "name":"E-commerce Retail App",
-        "description":"React.js & Redux.js Frontend & Express.js Backend",
+        "description":"React.js, Styled Components, Redux.js, Redux Sagas Firebase, stripe API",
         "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/project11.JPG?alt=media&token=565fbed2-820d-4557-9eb0-7f056336a0d2",
-        "projectUrl":"https://crwn-live0511.herokuapp.com/"
+        "projectUrl":"https://christian-webdev-ecomstore.netlify.app/"
       },
       {
         "name":"Covid-19 Tracker",
-        "description":"React.js Frontend (React Hooks), Utilizes Disease.sh API to retreive data",
+        "description":"React.js Frontend (React Hooks), Utilizes Disease.sh API",
         "imgurl":"https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/project13.png?alt=media&token=d0d6d503-08ce-4aa5-adda-1f44c2d1d8e6",
-        "projectUrl":"https://admiring-gates-0d9dbc.netlify.app//"
+        "projectUrl":"https://christian-webdev-covid19tracker.netlify.app/"
       },
       {
         "name":"RUGSUSA",
