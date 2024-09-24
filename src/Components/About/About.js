@@ -41,7 +41,7 @@ export default class About extends Component {
                                 <span>Email: {resumeData.email}</span>
                             </p>
                             <div class="resumeButton-container">
-                                <Button class="resumeButton" target="_blank" variant="contained" href="https://firebasestorage.googleapis.com/v0/b/christianstevensfiles.appspot.com/o/Christian%20Stevens%20(2).pdf?alt=media&token=8fe6d7c7-0613-4312-a820-95f650795df2">Resume</Button>  
+                                <Button class="resumeButton" target="_blank" variant="contained" href="https://firebasestorage.googleapis.com/v0/b/christianstevensfiles.appspot.com/o/Christian%20Stevens%20-%20Updated%20Resume.pdf?alt=media&token=d12b0b34-5a7f-4dcf-9854-ab5e34a4d461">Resume</Button>  
                             </div>
                     </div>
                 </div>  
