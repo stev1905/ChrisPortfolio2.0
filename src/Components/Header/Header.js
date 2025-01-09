@@ -77,7 +77,7 @@ export default class Header extends Component {
       <React.Fragment>   
       <header id="home" class="header-container">
         <RenderSmoothImage
-          src={'https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/test4.jpg?alt=media&token=6f85466f-8d92-42c5-9531-57669e873a95'} 
+          src={'https://firebasestorage.googleapis.com/v0/b/chris-portfolio-1c817.appspot.com/o/AdobeStock_557304508%20(1).jpeg?alt=media&token=a08e447f-38b4-4999-aa19-18a27703c95f'} 
           alt="alternate-text" 
           object-fit="cover"
           onLoad = {() => this.unHideHeadingContent()}
@@ -100,7 +100,7 @@ export default class Header extends Component {
                     <h2 style={{color:'#fff', fontFamily:'sans-serif '}}> 
                       <Typewriter 
                           options={{
-                          strings: ['I\'m a Front-end Developer.', 'I\'m a Full-stack Developer.','I\'m a React Developer.', 'I\'m a Coder.', 'I\'m a Freelance Developer.'],
+                          strings: ['I\'m a Software Engineer.', 'I\'m a Father of Two.', 'I\'m a Problem Solver.', 'I\'m a React Expert.'],
                           autoStart: true,
                           delay: 50,
                           deleteSpeed: 20,
