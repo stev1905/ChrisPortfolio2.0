@@ -18,22 +18,18 @@ export default class Header extends Component {
       hiddenBannerContent:'',
       hiddenNavContent:''
     }
-    console.log('Constructor')
   }
    componentDidMount() {
       window.addEventListener("scroll", this.highlightTargetNavLink);
       window.addEventListener("scroll", this.handleScroll);
-      
-      console.log('Component Did Mount')
+    
     }
   
     handleScroll = (e) => {
       if (window.scrollY > 20 && (window.innerWidth > 500)) {
-        console.log('true')
         this.setState({barIsVisible: 'navbar navbar-expand-lg navbar-light scroll'}); 
       } else {
         this.setState({barIsVisible: 'navbar navbar-expand-lg navbar-light'});
-        console.log('false')
       }
     }
 
@@ -62,11 +58,9 @@ export default class Header extends Component {
       } else {
          this.setState({portfolioIsActive: ''})
       }
-      console.log('Location - ', fromTop, 'Skills- ', skills)
     }
 
     unHideHeadingContent = () => {
-      console.log('unhiding')
       this.setState({hiddenBannerContent:'unhide'})
       this.setState({hiddenNavContent:'unhide'})
     }
@@ -93,7 +87,6 @@ export default class Header extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        {console.log('hiding banner')}
           <div className={`row banner ${this.state.hiddenBannerContent}`}>
               <div className="banner-text">
                 <h1 className="responsive-headline">Hi, I'm Christian.</h1>

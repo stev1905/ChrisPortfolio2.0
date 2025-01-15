@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.smooth-image-wrapper .smooth-preloader .loader {
+  background-image: linear-gradient(to right, #000, #222, #000) !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
